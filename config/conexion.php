@@ -17,10 +17,14 @@
         {
             die("La conexión con la BD falló: " + mysqli_error($conexion));  
         }
-        else
+        /*else
         {
             die("Conexión a la BD exitosa!"); 
-        }
-        return conexion;
+        }*/
+        return $conexion;
     }
+
+    //Probar conexion a BD
+    //echo '<br>Probando conexión a la BD ...';
+    //$con = conectar(); 
 ?>
