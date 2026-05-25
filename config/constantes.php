@@ -2,7 +2,7 @@
     // Parametros requeridos para la conexion de la BD
 
     // Parametros DB local - constantes
-    define('USER', 'admin'); // Crea la constante USER con valor 'root'
+    define('USER', 'ncabrera'); // Crea la constante USER con valor 'root'
     define('PW', '12345');
     define('HOST', 'localhost');
     define('BD', 'centro_medico');
